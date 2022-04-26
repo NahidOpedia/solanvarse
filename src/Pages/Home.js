@@ -9,10 +9,12 @@ import Offer from '../components/Offer';
 import Roadmap from '../components/Roadmap';
 import Footer from '../components/Footer';
 import PieChart from '../components/PieChart';
+import About from '../components/about'
 const Home = () => {
     return (
         <div>
             <Header/>
+            <About/>
             <Offer/>
             <Contract/>
             <Game/>

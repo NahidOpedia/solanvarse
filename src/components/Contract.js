@@ -18,11 +18,16 @@ const Contract = () => {
                          </div>
                     </div>
                     <div className="col-lg-5 col-12">
-                         <div className="contract_content" data-aos="fade-up"  data-aos-duration="3000">
+                         <div className="contract_content text-center text-md-start" data-aos="fade-up"  data-aos-duration="3000">
                               <div className="contact_title">
                                    <span>Smart Contracts</span>
-                                   <h2>Smarter Smart Contracts</h2>
+                                   <h2 className='d-none d-md-block'>Smarter Smart Contracts</h2>
                               </div>
+                              <div className="title d-md-none mt-3">
+                                <div  data-aos="fade-up"   className="offer_section_button" style={{maxWidth: "450px", marginBottom: "48px"}}>
+                                    <button>Smarter Smart Contracts</button>
+                                </div>
+                                    </div>
                               <div className="contract_para">
                                    <p>SolanVerse is one of the leading smart contracts Proof of Stake blockchains. SolanVerse smart contracts can use formal verification, allowing them to be mathematically verified, reliable, and secure.</p>
                               </div>

@@ -26,14 +26,14 @@ const Mission = () => {
                 <div class="mission_area">
                     <div class="mission_title">
                         <p data-aos="fade-up" data-aos-duration="2000">Our Mission</p>
-                        <div data-aos="fade-up" data-aos-duration="3000" class="offer_section_button">
+                        <div data-aos="fade-up" data-aos-duration="3000" class="offer_section_button mt-3 mb-3 m-md-0">
                             <button>Solanverse Future Missions</button>
                         </div>
                     </div>
                     <div class="mission_body">
                         <div class="mission_item" data-aos="fade-up" data-aos-duration="3000">
-                            <img src={m2} alt=""/>
-                                <h4>ADDING AN ABILITY TO BUY  COMMODITIES SUCH AS GOLD & SILVER WITHOUT MAKING CHARGE
+                            <img src={m2} alt="" />
+                                <h4 className="mt-2 mb-2 m-md-0">ADDING AN ABILITY TO BUY  COMMODITIES SUCH AS GOLD & SILVER WITHOUT MAKING CHARGE
                                 </h4>
                         </div>
                         <div class="mission_item" data-aos="fade-up" data-aos-duration="3000">
@@ -80,7 +80,7 @@ const Mission = () => {
                     </div>
                 </div>
             </div>
-            <div class="global_image">
+            <div class="global_image d-none d-md-block">
                 <img src={Bitcoin} alt="image"/>
                     <div class="mission_bg_color"></div>
             </div>

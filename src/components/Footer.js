@@ -11,7 +11,7 @@ import React from 'react'
               </div>
               <p className='footer-text'>Don't hesitate to subscribe to latest news about ICo markets as well as crucial financial knowledge to become successful investors globally</p>
 
-              <div className="footer-social-icon d-flex justify-content-around">
+              <div className="footer-social-icon d-flex justify-content-center">
                   <a href="http://" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-facebook-f social-icon"></i>
                   </a>
@@ -28,7 +28,7 @@ import React from 'react'
                       <i className="fa-brands fa-youtube social-icon"></i>
                   </a>
               </div>
-              <p className='copyright'>Copyright © 2022. All rights reserved by Your Company.</p>
+           
           </div>
       </div>
   )

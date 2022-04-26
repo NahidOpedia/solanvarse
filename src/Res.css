@@ -1,21 +1,46 @@
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .hero_content h2 {
+        font-size: 60px;
+    }
+    .hero_content h1 {
+        font-size: 50px;
+    }
+    .button_Section button {
+        padding: 0px 30px;
+        font-size: 45px;
+    }
+
+    .contact_title h2 {
+        font-size: 53px;
+        line-height: 69px;
+    }
+    .contract_para p {
+        font-size: 27px;
+    }
+
+}
+
 @media screen and (max-width:991px) {
     .hero_top {
         display: none;
     }
 
     .mobile_nenu {
-        background: #1e1e09;
+        background: #021225;
         position: absolute;
-        top: 95px;
-        left: -1000px;
+        top: -1000px;
+        left: 0;
         width: 100%;
         height: 100vh;
         z-index: 99999;
-        transition: all .3s ease-in-out;
+        transition: all .4s ease-in-out;
     }
 
     .open {
-        left: 0px;
+        top: 95px;
     }
 
     .bars span {
@@ -38,7 +63,7 @@
         justify-content: space-between;
         padding: 37px;
         align-items: center;
-        padding: 20px 30px;
+        padding: 23px 30px;
     }
 
     .mobile_nenu .hero_top_left .menu ul {
@@ -94,6 +119,11 @@
         padding: 12px 26px;
         font-size: 12px;
     }
+    
+
+
+
+
 
 }
 
@@ -128,6 +158,23 @@
         font-size: 14px !important;
     }
 
+    .container-fqa>h4{position: relative; margin-left: 0; font-size: 10px;}
+    .container-fqa>h4::before {
+      content: '';
+      background: #FFFFFF;
+      position: absolute;
+      Width: 2px;
+      Height: 14px;
+      top: 50%;
+      left: 45%;
+      transform: translateY(-118%);
+    }
+    .hero_content h1 {
+        background: -webkit-linear-gradient(245deg, #9EFFE8 22.08%, #0057FF 89.62%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 }
 
 @media screen and (max-width: 423px) {
@@ -149,11 +196,15 @@
     }
 
     .button_Section button {
-        padding: 8px 24px;
-        font-size: 24px !important;
+        padding: 0px 24px;
+        font-size: 19px !important;
         margin: 11px;
         font-weight: 700;
 
+    }
+    .soluation_item img {
+        width: 150px;
+        margin-bottom: -35px;
     }
 
     .about_content h5::before {
@@ -166,6 +217,15 @@
 }
 
 @media screen and (max-width:575px) {
+    .soluation_item img {
+        margin-left: 0;
+    }
+    .footer-title {
+      font-size: 22px;
+    }
+    .footer-title {
+        padding-top: 45px;
+    }
     .about_content p {
         font-size: 12px !important;
     }
@@ -181,7 +241,7 @@
     }
 
     .about_section {
-        padding: 0px 0px 100px !important;
+        padding: 0px 0px 0px !important;
     }
 }
 
@@ -213,8 +273,8 @@
 
 @media screen and (max-width:1399px) {
     .offer_section_button {
-        width: 850px;
-        margin-bottom: 48px;
+        max-width: 850px;
+        margin-bottom: 0;
     }
 }
 
@@ -226,14 +286,21 @@
 
 @media screen and (max-width: 575px) {
     .offer_section_button button {
-        font-size: 20px !important;
+        font-size: 19px !important;
         margin: 12px 0px !important;
-        padding: 5px 15px !important;
+        padding: 0px 15px !important;
     }
 
     .offer_section_button {
         width: 300px;
     }
+    .offter_item {
+        margin-bottom: 20px !important;
+    }
+    .contact_title.token span {
+        font-size: 12px;
+    }
+   
 }
 
 
@@ -264,7 +331,11 @@
 
     .mission_item h4 {
         font-size: 16px;
+        padding-left: 60px;
+        padding-right: 60px; 
+        line-height: 20px;
     }
+    .mission_item img {width: 40px;}
 
     .mission_item {
         margin-bottom: 0px;
@@ -272,6 +343,27 @@
 
     .global_image img {
         width: 82px !important;
+    }
+    .offer_body {
+
+        padding-bottom: 0px;
+    }
+
+    .game__inner .image__section h4 {
+        font-size: 16px;
+    }
+
+    .game__inner .para__section p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .game__inner {
+        padding-bottom: 90px;
+    }
+
+    .application__section {
+        padding: 100px 0 0;
     }
 }
 
@@ -282,7 +374,7 @@
 }
 @media screen and (max-width: 991px) {
     .timeline__title h4 {
-        font-size: 50px;
+        font-size: 24px;
     }
 
     .content {
@@ -336,6 +428,47 @@
     .timeline::after {
         left: 7%;
     }
+    .offer_content h4 {
+        font-size: 18px;
+    }
+    .image__section img {
+        width: 40px;
+    }
+    .chart_Section {
+        margin: 35px 0px 85px;
+    }
+    .mission_item h4 {
+        margin-top: 0;
+    }
+    
+    .app__section .item1 p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .app img {height: 60px !important;}
+    .app__section div {width: 90px !important;}
+    .timeline__title img {width: 223px;
+        height: 112px;}
+
+        .timeline__title {
+            position: relative;
+        }
+        .timeline__title h4 {
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .about_content h5 {
+            font-size: 10px;
+        }
+        .offer_title span {
+            margin-bottom: 14px;
+            font-size: 10px;
+        }
+
+
 }
 
 @media screen and (max-width: 424px) {

@@ -26,7 +26,7 @@ const Offer = () => {
                             <div className="row">
                                 <div className="col-lg-4 col-md-6 col-12">
                                     <div className="offter_item">
-                                        <div className="offer_img">
+                                        <div className="offer_img d-none d-md-block">
                                                 <img src={O1} alt="img"/>
                                         </div>
                                         <div className="offer_content">
@@ -38,18 +38,18 @@ const Offer = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-12">
                                     <div className="offter_item">
-                                        <div className="offer_img">
+                                        <div className="offer_img d-none d-md-block">
                                                 <img src={O2} alt="img" />
                                         </div>
                                         <div className="offer_content">
                                                 <h4>Solanverse NFTs</h4>
-                                                <p>Passive income generating NFTs to increase even fixed APR & generate higher returns. </p>
+                                                <p>Passive income generating NFTs to increase even fixed APR & generate higher  returns. </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-12 m-auto">
+                                <div className="col-lg-4 col-md-6 col-12 m-0">
                                     <div className="offter_item">
-                                        <div className="offer_img">
+                                        <div className="offer_img d-none d-md-block">
                                                 <img src={O3} alt="img"/>
                                         </div>
                                         <div className="offer_content">

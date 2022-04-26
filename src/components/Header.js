@@ -26,7 +26,7 @@ const Header = () => {
                     <div className="mobile_logo">
                         <img src={MobileLogo} alt="logo" />
                     </div>
-                    <div className="bars" onClick={()=>setToggle(!toggle)}>
+                    <div className="bars" style={{cursor:'pointer'}} onClick={()=>setToggle(!toggle)}>
                         <span></span>
                         <span></span>
                     </div>
@@ -141,7 +141,7 @@ const Header = () => {
                         <div className="hero_content">
                             <h1 data-aos="fade-up" data-aos-duration="1000">SOLANVERSE</h1>
                             <h2 data-aos="fade-up" data-aos-duration="2000">Changing The Crypto Space</h2>
-                            <p data-aos="fade-up" data-aos-duration="3000">A team of professionals, changing the crypto space through hard work, ingenuity and trust.</p>
+                            <p data-aos="fade-up" className='mt-3' data-aos-duration="3000">A team of professionals, changing the crypto space through hard work, ingenuity and trust.</p>
                             <div className="button_group">
                                 <a className="btnone" data-aos="fade-up" data-aos-duration="3000" href="#"><img src={i5} alt="" />Buy On Pancakeswap</a>
                                 <a className="btntwo" data-aos="fade-up" data-aos-duration="3000" href="#"><img src={i6} alt="" />Whitepaper</a>
